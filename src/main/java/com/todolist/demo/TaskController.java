@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import java.time.LocalDate;
 import java.util.List;
 
-@CrossOrigin(origins = {"http://localhost:3000","https://to-do-list-frontend-ry33-7agwqjomn-agniva-sardars-projects.vercel.app"})
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/tasks")
 public class TaskController {
