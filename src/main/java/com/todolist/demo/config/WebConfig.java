@@ -16,7 +16,7 @@ public class WebConfig {
                     .allowedOrigins(
                         "*")
                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                    .allowCredentials(true);
+                    .allowCredentials(false);
             }
         };
     }
